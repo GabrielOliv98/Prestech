@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prestech | Entre Nós</title>
+    <link rel="stylesheet" href="./entreEmContato.css"
+</head>
+<body>
+    <div class="DTitulo">
+        <div class="display-flex">
+            <a href="index.html"><img id="logo" src="logo.PNG"></a>
+            <h1 id="titulo">Prestech Brasil</h1>
+        </div>
+        <a href="index.html">Index</a>
+        <a href="cadastro_login.html">Login/Cadastro</a>
+    </div>
+    <div id="BaseD4">
+        <h2 class="Titulo4">Entre em contato</h2>
+            <div class="display-flex">
+                <div class="BD4L">
+                    <h3>Contato da Empresa:</h3>
+                    <h4>0800-4002-8922</h4>
+                    <img id="imgContato" src="fotos/img_contato.jpeg" alt="Coitado do TI">
+                </div>
+                <div class="BD4R">
+                    <h2 class="BD4h">Dúvidas sobre produtos e soluções?<br>Estamos aqui para ajudar.</h2>
+                        <div class="flex-input">
+                            <input id="nome" type="text" placeholder="Nome:"/>
+                            <span id="erroNome" class="error not-show">Por favor, preencha seu nome</span>
+                        </div>
+                        <div class="flex-input">
+                            <input id="sobrenome" type="text" placeholder="Sobrenome:"/>
+                            <span id="erroSobrenome" class="error not-show">Por favor, preencha seu Sobrenomenome</span>
+                        </div>
+                        <div class="flex-input">
+                            <input id="email" type="text" placeholder="E-mail:"/>
+                            <span id="erroEmail" class="error not-show">Por favor, preencha seu Email</span>
+                        </div>
+                        <div class="flex-input">
+                            <input id="numeroCelular" type="text" placeholder="Número celular:"/>
+                            <span id="erroNumeroCelular" class="error not-show">Por favor, preencha seu número de Celular</span>
+                        </div>
+                        <button onclick="enviar()" class="btn m-3" type="submit">Enviar</button>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+</body>
+</html>
